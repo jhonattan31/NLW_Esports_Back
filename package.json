@@ -1,0 +1,30 @@
+{
+  "name": "nlw_esports_back",
+  "type": "commonjs",
+  "version": "1.0.0",
+  "description": "Backend desenvolvido na aplicação da NLW Esports",
+  "main": "src/server.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsnd src/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhonattan31/NLW_Esports_Back.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jhonattan31/NLW_Esports_Back/issues"
+  },
+  "homepage": "https://github.com/jhonattan31/NLW_Esports_Back#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.14",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.8.3"
+  }
+}
